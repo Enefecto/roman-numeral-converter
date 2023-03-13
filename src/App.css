@@ -1,0 +1,26 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luxurious Roman', cursive;
+    font-weight: 400;
+}
+html{
+    font-size: 62.5%;
+}
+@media (max-width: 450px) {
+    html{
+        font-size: 50%;
+    }
+}
+body{
+    font-size: 1.6rem;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f1115;
+}
